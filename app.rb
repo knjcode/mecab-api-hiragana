@@ -18,6 +18,10 @@ end
 last_request_time = ""
 request_counter = 0
 
+get '/' do
+  erb :index
+end
+
 post '/hiragana', provides: :json do
   body = JSON.parse(request.body.read) rescue ""
   if body == ""
