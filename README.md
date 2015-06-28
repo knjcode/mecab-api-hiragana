@@ -1,4 +1,4 @@
-# mecab-api
+# mecab-api-hiragana
 
 gooラボの[ひらがな化API](https://labs.goo.ne.jp/api/2014/338/)のクローン
 
@@ -21,7 +21,7 @@ $ gem install bundler foreman
 リポジトリのcloneと起動
 
 ```
-$ git clone https://github.com/knjcode/neologd-api
+$ git clone https://github.com/knjcode/mecab-api-hiragana
 $ bundle install --path vendor/bundle
 $ foreman start
 ```
