@@ -21,7 +21,7 @@ $ gem install bundler foreman
 リポジトリのcloneと起動
 
 ```
-$ git clone https://github.com/knjcode/neologd-api
+$ git clone https://github.com/knjcode/mecab-api
 $ bundle install --path vendor/bundle
 $ foreman start
 ```
