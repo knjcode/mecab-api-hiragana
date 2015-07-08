@@ -71,7 +71,7 @@ helpers do
   def parse(text)
     data = []
     $nm.parse(text) do |n|
-      data.push(n.feature.split(",")[7])
+      data.push(n.feature.split(",")[9])
     end
     data[0...-1]
   end
