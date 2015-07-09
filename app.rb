@@ -7,6 +7,8 @@ require 'json'
 require 'natto'
 require 'moji'
 
+Encoding.default_external = 'utf-8'
+
 configure :production do
   require 'newrelic_rpm'
 end
