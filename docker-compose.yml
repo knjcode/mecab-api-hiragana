@@ -1,0 +1,7 @@
+mecab-api-hiragana:
+  build: .
+  volumes:
+    - $PWD:/root/sinatra
+  ports:
+    - "5000:9999"
+  restart: always
